@@ -1,1 +1,15 @@
-{"name":"hostflow-crm","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.js","dev":"node --watch server.js","test":"node --test"},"engines":{"node":">=24"}}
+{
+  "name": "hostflow-crm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "backup": "node backup.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
